@@ -1,13 +1,18 @@
 import './App.css';
 import HomePage from './components/HomePage'
+import Sobre from './components/Sobre'
+import Skills from './components/Skills'
+import Projetos from './components/Projetos'
+import Contatos from './components/Contatos'
 
 function App() {
   return (
     <div className="App">
-       <h1 className="text-3xl font-bold underline">
-        Hello world!
-        </h1>
-        <HomePage />
+      <HomePage />
+      <Sobre />
+      <Skills />
+      <Projetos />
+      <Contatos />
     </div>
   );
 }
