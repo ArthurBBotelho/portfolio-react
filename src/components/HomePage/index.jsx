@@ -1,9 +1,9 @@
-import Arthur from "../../images/photos/"
+import Arthur from "../../images/photos/Arthur.JPG"
 
 function HomePage() {
     return (
         <div>
-            <img src={Arthur}></img>
+            <img className="w-2" src={Arthur}></img>
         </div>
     )
 }
