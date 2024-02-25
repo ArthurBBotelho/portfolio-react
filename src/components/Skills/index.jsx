@@ -15,7 +15,7 @@ function Skills() {
     return(
         <div>
             <div className="columns-2">
-                <div className="bg-[#FF8A00] flex w-[80%]">
+                <div className="bg-[#FF8A00] flex">
                     <h1 className="text-white font-black text-[150px]">
                         Skills
                     </h1>
@@ -31,16 +31,16 @@ function Skills() {
                 </div>
             </div>
             <div className="flex justify-center">
-                <img className="w-24" src={Html}></img>
-                <img className="w-24" src={Css}></img>
-                <img className="w-24" src={Js}></img>
-                <img className="w-24" src={Figma}></img>
-                <img className="w-24" src={AtomReact}></img>
-                <img className="w-24" src={Git}></img>
-                <img className="w-24" src={Node}></img>
-                <img className="w-24" src={Tailwind}></img>
-                <img className="w-24" src={Bootstrap}></img>
-                <img className="w-24" src={Firebase}></img>
+                <img className="h-[180px] p-8" src={Html}></img>
+                <img className="h-[180px] p-8" src={Css}></img>
+                <img className="h-[180px] p-8" src={Js}></img>
+                <img className="h-[180px] p-8" src={Figma}></img>
+                <img className="h-[180px] p-8" src={AtomReact}></img>
+                <img className="h-[180px] p-8" src={Git}></img>
+                <img className="h-[180px] p-8" src={Node}></img>
+                <img className="h-[180px] p-8" src={Tailwind}></img>
+                <img className="h-[180px] p-8" src={Bootstrap}></img>
+                <img className="h-[180px] p-8" src={Firebase}></img>
             </div>
         </div>
     )
