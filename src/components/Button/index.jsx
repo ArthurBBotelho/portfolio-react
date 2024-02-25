@@ -1,8 +1,6 @@
-function Button() {
+function Button(props) {
     return (
-        <div>
-            <button className="bg-[#303030]"></button>
-        </div>
+            <button className="bg-[#303030] text-[#FF8A00] text-[32px] font-black w-[60%] p-4">{props.nome}</button>
     )
 }
 

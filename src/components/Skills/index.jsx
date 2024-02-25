@@ -9,21 +9,28 @@ import Bootstrap from "../../images/icons/bootstrap.png"
 import Node from "../../images/icons/node-js.png"
 import Firebase from "../../images/icons/firebase.png"
 
+import Button from "../Button"
+
 function Skills() {
     return(
         <div>
-            <div>
-                <h1>
-                    Skills.
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit deleniti officia possimus eveniet atque quisquam, magni consequatur similique pariatur dolorem tempore qui velit tempora dignissimos odit voluptas? Voluptates, eligendi!
-                </p>
+            <div className="columns-2">
+                <div className="bg-[#FF8A00] flex w-[80%]">
+                    <h1 className="text-white font-black text-[150px]">
+                        Skills
+                    </h1>
+                    <h1 className="text-[#303030] font-black text-[150px]">
+                        .
+                    </h1>
+                    <p className="text-[#303030] font-medium text-[18px]">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit deleniti officia possimus eveniet atque quisquam, magni consequatur similique pariatur dolorem tempore qui velit tempora dignissimos odit voluptas? Voluptates, eligendi!
+                    </p>
+                </div>
+                <div>
+                    <Button nome="CURRICULUM VITAE"/>
+                </div>
             </div>
-            <div>
-                <button className="bg-[#484848]">Curriculum Vitae</button>
-            </div>
-            <div className="flex">
+            <div className="flex justify-center">
                 <img className="w-24" src={Html}></img>
                 <img className="w-24" src={Css}></img>
                 <img className="w-24" src={Js}></img>
