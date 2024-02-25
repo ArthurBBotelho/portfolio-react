@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="m-8">
+    <div className="mx-64">
       <HomePage />
       <Sobre />
       <Skills />

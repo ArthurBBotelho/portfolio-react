@@ -21,10 +21,19 @@ function Skills() {
                 </p>
             </div>
             <div>
-                <button>Curriculum Vitae</button>
+                <button className="bg-[#484848]">Curriculum Vitae</button>
             </div>
-            <div>
-
+            <div className="flex">
+                <img className="w-24" src={Html}></img>
+                <img className="w-24" src={Css}></img>
+                <img className="w-24" src={Js}></img>
+                <img className="w-24" src={Figma}></img>
+                <img className="w-24" src={AtomReact}></img>
+                <img className="w-24" src={Git}></img>
+                <img className="w-24" src={Node}></img>
+                <img className="w-24" src={Tailwind}></img>
+                <img className="w-24" src={Bootstrap}></img>
+                <img className="w-24" src={Firebase}></img>
             </div>
         </div>
     )
