@@ -2,10 +2,10 @@ import Arthur from "../../images/photos/Arthur.JPG"
 
 function HomePage() {
     return (
-        <div>
+        <div className="m-8" >
             <div>
                 <h1>Arthur</h1>
-                <img src={Arthur}></img>
+                <img className="w-96" src={Arthur}></img>
             </div>
             <div>
                 <h1>Botelho Dev.</h1>
