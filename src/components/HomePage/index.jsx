@@ -3,18 +3,18 @@ import Button from "../Button"
 
 function HomePage() {
     return (
-        <div className="xl:columns-2 xl:flex-col-reverse">
-            <div>
-                <img className="h-vh" src={Arthur}></img>
+        <div className="columns-2">
+            <div className="bg-orange1">
+                <img className="w-[75%] ml-72" src={Arthur}></img>
             </div>
-            <div className="flex flex-col justify-between">
-                <div  className="flex flex-col xl:text-[48px]">
-                    <h1 className="font-black text-[96px] text-gray1 leading-[120px]">Arthur</h1>
-                    <h1 className="font-black text-[96px] text-orange1 leading-[120px]">Botelho<br></br> Dev<span className="font-black text-[120px] text-gray1">.</span></h1>
+            <div className="mr-56 ml-16">
+                <div>
+                    <h1 className="font-black text-9xl text-gray1">Arthur</h1>
+                    <h1 className="font-black text-9xl text-orange1">Botelho<br></br> Dev<span className="font-black text-8xl text-gray1">.</span></h1>
                 </div>
-                <div className="pb-8">
-                    <p className="text-gray1 font-medium text-[20px] py-12">“Transformando ideias em experiências digitais memoráveis. Onde cada código ganha vida”</p>
-                    <div className="flex justify-end">
+                <div className="pt-5">
+                    <p className="text-gray1 font-medium text-xl mt-72 ml-24 py-8">“Transformando ideias em experiências digitais memoráveis. Onde cada código ganha vida”</p>
+                    <div className="mt-12 flex justify-end">
                         <Button nome="HIRE ME"/>
                     </div>
                 </div>
