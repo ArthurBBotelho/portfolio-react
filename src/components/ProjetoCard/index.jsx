@@ -1,10 +1,10 @@
+import Button from "../Button"
 
-
-function ProjetoCard() {
+function ProjetoCard(props) {
     return (
-        <div className="w-56 bg-slate-200 m-4">
+        <div className="w-72 bg-slate-200 m-4">
             <h1>
-                ProjetoCardName
+                {props.projeto}
             </h1>
             <div>
                 <img src="#"></img>
@@ -13,7 +13,7 @@ function ProjetoCard() {
                 </p>
             </div>
             <div>
-                <button className="bg-slate-400">Acessar</button>
+                <Button nome="ACESSAR"/>
             </div>
         </div>
     )
