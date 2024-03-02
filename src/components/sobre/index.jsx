@@ -10,7 +10,7 @@ function Sobre() {
             </div>
             <div className="bg-white h-[820px]">
                 <h1 className="font-black text-9xl text-gray1 p-12">
-                    Sobre <span className="font-black text-8xl text-orange1">.</span>
+                    Sobre<span className="font-black text-9xl text-orange1">.</span>
                 </h1>
             </div>
         </div>

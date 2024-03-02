@@ -2,17 +2,19 @@ import Button from "../Button"
 
 function ProjetoCard(props) {
     return (
-        <div className="w-72 bg-slate-200 m-4">
-            <h1>
-                {props.projeto}
+        <div className="bg-gray2 m-8 w-96">
+            <h1 className="text-orange1 font-black text-4xl p-4">
+                {props.nomeProjeto}
             </h1>
             <div>
-                <img src="#"></img>
+                <img className="p-8"
+                src={props.imagemProjeto} alt="Imagem do Projeto">
+                </img>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis vitae voluptates iste sit numquam, natus recusandae accusamus, ex, excepturi veniam. Distinctio rerum iusto iste veniam, rem corporis tenetur quisquam?
+                    {props.textoProjeto}
                 </p>
             </div>
-            <div>
+            <div className="flex justify-center">
                 <Button nome="ACESSAR"/>
             </div>
         </div>
