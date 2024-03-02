@@ -1,6 +1,6 @@
 function Button(props) {
     return (
-            <button className="bg-gray1 text-orange1 text-[20px] font-black w-[50%] p-2">{props.nome}</button>
+            <a target='blank' href={props.link}><button className="bg-gray1 hover:bg-gray2 text-orange1 text-[20px] font-black p-4 px-24">{props.nome}</button></a>
     )
 }
 

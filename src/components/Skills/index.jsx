@@ -23,7 +23,7 @@ function Skills() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit deleniti officia possimus eveniet atque quisquam, magni consequatur similique pariatur dolorem tempore qui velit tempora dignissimos odit voluptas? Voluptates, eligendi!
                     </p>
                 </div>
-                <div className="bg-white h-[400px] mr-56 pt-[360px]">
+                <div className="bg-white h-[400px] mr-56 pt-[340px]">
                     <div className="flex justify-end">
                         <Button nome="CURRICULUM VITAE"/>
                     </div>
