@@ -10,11 +10,11 @@ function Contatos() {
             <div className='my-4 flex flex-col'>
                 <input className="font-medium bg-gray3 text-xl p-2 my-4" placeholder="NOME"></input>
                 <input className="font-medium bg-gray3 text-xl p-2 my-4" placeholder="E-MAIL"></input>
-                <input className="font-medium bg-gray3 text-xl p-2 my-4" placeholder="MENSAGEM"></input>
+                <input className="font-medium bg-gray3 text-xl p-2 my-4 h-36" placeholder="MENSAGEM"></input>
             </div>
             <div className='flex'>
-                <a href='https://www.linkedin.com/in/arthur-botelho-8ab547206/' target='blank'><img className="w-12" src={Linkedin}></img></a>
-                <a href='https://github.com/ArthurBBotelho' target='blank'><img className="w-12" src={Github}></img></a>
+                <a href='https://www.linkedin.com/in/arthur-botelho-8ab547206/' target='blank'><img className="w-12 m-4" src={Linkedin}></img></a>
+                <a href='https://github.com/ArthurBBotelho' target='blank'><img className="w-12 m-4" src={Github}></img></a>
             </div>
         </div>
     )
