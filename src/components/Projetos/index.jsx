@@ -24,14 +24,14 @@ function Projetos() {
                 </div>
 
                 <div className="flex flex-col">
-                    <ProjetoCard nomeProjeto="D-house" imagemProjeto={Dhouse} textoProjeto="D-house é um e-commerce construido no curso de Java Script, essa loja virtual de móveis apresenta uma variedade de produtos em um layout de página incrível. A etapa mais complexa e desafiadora durante o processo foi desenvolver um carrinho que  fosse funcional e responsívo."/>
+                    <ProjetoCard nomeProjeto="D-house" imagemProjeto={Dhouse} textoProjeto="D-house é um e-commerce construido no curso de Java Script, essa loja virtual de móveis apresenta uma variedade de produtos em um layout de página incrível. A etapa mais complexa e desafiadora durante o processo foi desenvolver um carrinho que  fosse funcional e responsivo."/>
                     <div className="flex justify-center">
                         <Button nome="ACESSAR" link="https://arthurbbotelho.github.io/projeto-final-javascript/index.html"/>
                     </div>
                 </div>
 
                 <div className="flex flex-col">
-                    <ProjetoCard nomeProjeto="Aqui_no" imagemProjeto={Aquino} textoProjeto="Durante o curso de Desenvolvimento Web foi desenvolvido o Aqui_no com o objetivo de representar uma curadoria de filmes brasileiros separados pelas regiões do país. Um dos principais desafios desse projeto foi construir um mapa que relaciona todas as regiões do Brasil por cores."/>
+                    <ProjetoCard nomeProjeto="Aqui_no" imagemProjeto={Aquino} textoProjeto="Durante o curso de Desenvolvimento Web, foi desenvolvido o Aqui_no com o objetivo de representar uma curadoria de filmes brasileiros separados pelas regiões do país. Um dos principais desafios desse projeto foi construir um mapa que relaciona todas as regiões do Brasil por cores."/>
                     <div className="flex justify-center">
                         <Button nome="ACESSAR" link="https://luanadplr.github.io/projeto_final/"/>
                     </div>

@@ -15,7 +15,7 @@ function HomePage() {
                 <div className="pt-5">
                     <p className="text-gray1 font-medium text-xl mt-72 ml-24 py-8">Transformando ideias em experiências digitais memoráveis. Onde cada código ganha vida!</p>
                     <div className="mt-12 flex justify-end">
-                        <Button nome="HIRE ME" link="#contato"/>
+                        <a href="#contato"><button className="bg-gray1 hover:bg-gray2 text-orange1 text-[20px] font-black p-4 px-24">HIRE ME</button></a>
                     </div>
                 </div>
             </div>
