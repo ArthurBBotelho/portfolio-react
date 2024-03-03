@@ -25,7 +25,7 @@ function Skills() {
                 </div>
                 <div className="bg-white h-[480px] mr-56 flex flex-col justify-end">
                     <div>
-                        <Button nome="CURRICULUM VITAE"/>
+                        <Button nome="CURRICULUM VITAE" link="https://github.com/ArthurBBotelho/portfolio-react/blob/main/Curriculum%20vitae.pdf"/>
                     </div>
                 </div>
             </div>
