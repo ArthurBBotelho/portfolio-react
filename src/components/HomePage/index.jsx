@@ -15,7 +15,7 @@ function HomePage() {
                 <div className="pt-5">
                     <p className="text-gray1 font-medium text-xl mt-72 ml-24 py-8">Transformando ideias em experiências digitais memoráveis. Onde cada código ganha vida!</p>
                     <div className="mt-12 flex justify-end">
-                        <Button nome="HIRE ME"/>
+                        <Button nome="HIRE ME" link="#contato"/>
                     </div>
                 </div>
             </div>

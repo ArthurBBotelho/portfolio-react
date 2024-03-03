@@ -3,7 +3,7 @@ import Github from '../../images/icons/github.png'
 
 function Contatos() {
     return (
-        <div className='px-72 my-36'>
+        <div id="contato" className='px-72 my-36'>
             <h1 className="text-orange1 font-black text-9xl">
                 Contato<span className="text-gray1 font-black text-9xl">.</span>
             </h1>
