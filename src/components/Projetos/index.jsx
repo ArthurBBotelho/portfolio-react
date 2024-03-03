@@ -11,15 +11,15 @@ function Projetos() {
                 <h1 className="text-gray1 font-black text-9xl h-[360px] pl-72">
                     Projetos<span className="text-orange1 font-black text-9xl">.</span>
                 </h1>
-                <p className="bg-orange1 text-gray1 font-medium text-xl h-[360px] mr-72 p-12 pt-40">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit deleniti officia possimus eveniet atque quisquam, magni consequatur similique pariatur dolorem tempore qui velit tempora dignissimos odit voluptas? Voluptates, eligendi!
+                <p className="bg-orange1 text-gray1 font-medium text-xl text-justify h-[400px] mr-72 p-12 pt-40">
+                    Os projetos que apresento a seguir têm como objetivo ilustrar minha jornada por meio de cursos online focados em desenvolvimento front-end. Cada aplicação representa não apenas meu perfil como profissional, mas também reflete o constante interesse que tenho em aprimorar minhas habilidades como desenvolvedor
                 </p>
             </div>
             <div className="flex justify-center m-2">
                 <div className="flex flex-col">
                     <ProjetoCard nomeProjeto="Finestra Eyewear" imagemProjeto={Finestra} textoProjeto="Uma loja virtual de óculos de sol e de grau que esbanja elegancia, esse projeto desenvolvido com  React.js durante o curso apresenta funcionalidade sem deixar de lado o design. Nessa aplicação foi utilizada o firebase, uma ferramenta junto com várias APIs para tornar o projeto mais completo."/>
                     <div className="flex justify-center">
-                        <Button nome="ACESSAR" link="https://luanadplr.github.io/projeto_final/"/>
+                        <Button nome="ACESSAR" link="https://finestra-eyewear-18abf.web.app/"/>
                     </div>
                 </div>
 

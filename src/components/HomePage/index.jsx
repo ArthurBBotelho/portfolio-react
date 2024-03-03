@@ -13,7 +13,7 @@ function HomePage() {
                     <h1 className="font-black text-9xl text-orange1">Botelho<br></br> Dev<span className="font-black text-9xl text-gray1">.</span></h1>
                 </div>
                 <div className="pt-5">
-                    <p className="text-gray1 font-medium text-xl mt-72 ml-24 py-8">“Transformando ideias em experiências digitais memoráveis. Onde cada código ganha vida”</p>
+                    <p className="text-gray1 font-medium text-xl mt-72 ml-24 py-8">Transformando ideias em experiências digitais memoráveis. Onde cada código ganha vida!</p>
                     <div className="mt-12 flex justify-end">
                         <Button nome="HIRE ME"/>
                     </div>
